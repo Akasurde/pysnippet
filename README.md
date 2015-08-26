@@ -1,2 +1,6 @@
-# pysnippet
-Frequently needed snippets for Python
+Pysnippet
+===========
+
+Repo for frequently needed snippets for Python
+
+
