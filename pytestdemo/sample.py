@@ -1,0 +1,2 @@
+def funct():
+    print("a")
