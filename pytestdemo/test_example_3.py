@@ -1,6 +1,6 @@
-class KdcProxyUser:
+ class KdcProxyUser:
     def __init__(self):
-        self.username = 'kdcproxy'
+        pass
 
     @property
     def username(self):
@@ -20,7 +20,7 @@ class TestKdcproxy:
         user = 'kdcproxy'
         k = KdcProxyUser()
         assert user in k.username
-    
+
     def test_negative_kdcproxy1(self):
         user = 'abhijeet'
         k = KdcProxyUser()

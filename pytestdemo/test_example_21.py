@@ -2,7 +2,7 @@ import pytest
 
 @pytest.fixture()
 def my_fixture(request, httpcode):
-    print httpcode
+    print(httpcode)
 
     def teardown_session():
         """ define fixture for session level teardown """
