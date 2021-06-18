@@ -1,0 +1,1 @@
+import pkg.ex2
